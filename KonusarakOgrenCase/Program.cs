@@ -80,7 +80,10 @@ builder.Services.AddSwaggerGen(c =>
     {
         Version = "v1",
         Title = "KonusarakOgrenCase",
-        Description = "",
+        Description =
+            "Projeyi yapmak icin haftasonunu secmek bir hataymis :( " +
+            "Umarim imkan verildiginde istedigini yapabilecek bir junior developer oldugum anlasilabilir. " +
+            "Yapmak istedigim seyleri tamamlayamadim.",
         Contact = new OpenApiContact
         {
             Name = "Bugra Durukan",
